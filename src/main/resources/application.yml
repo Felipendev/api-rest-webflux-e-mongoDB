@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context path: /webflux/api
+
+spring:
+  data:
+    mongodb:
+      authentication-database: webflux
+      uri: ${MONGO_DB_URI:mongodb+srv://felipe:pHXGzGDBMvNdH2cU@cluster0.w1i3d.mongodb.net/cluster0?retryWrites=true&w=majority}
+      auto-index-creation: true
